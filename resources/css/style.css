@@ -1,3 +1,34 @@
-*{
+.navigation, .Section1,
+.MiddleBanner, .Section2{
   text-align: center;
+}
+
+.navigation{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  color: white;
+}
+
+.MiddleBanner{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+}
+
+a{
+  color: white;
+  font-size: 21px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer{
+  text-align: left;
+  color: white;
+  background-color: gray;
+}
+
+.footer p{
+  font-size: 12px;
 }
